@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- same meta, title, style as index but with flight-specific description --> </head>
+<body>
+    <header>…</header>
+    <main class="container">
+        <div class="rotating-h1" id="rotatingH1"><h1 id="mainH1">Half Off Flights from $92</h1></div>
+        <div class="city-cloud">…</div>
+
+        <section style="margin:3rem 0;">
+            <h2 style="font-size:2.5rem; color:#002868; margin-bottom:1rem;">✈️ 200+ Half‑Off Routes</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem;">
+                <div class="card"><strong>LAX → HNL</strong> $92</div>
+                <div class="card"><strong>JFK → MIA</strong> $99</div>
+                <div class="card"><strong>SEA → CHI</strong> $109</div>
+                <div class="card"><strong>DFW → LAS</strong> $117</div>
+                <div class="card"><strong>SFO → JFK</strong> $129</div>
+                <div class="card"><strong>ORD → LAX</strong> $119</div>
+                <div class="card"><strong>ATL → MCO</strong> $89</div>
+                <div class="card"><strong>DEN → SEA</strong> $105</div>
+                <div class="card"><strong>PHX → DFW</strong> $98</div>
+                <div class="card"><strong>LAS → DEN</strong> $79</div>
+                <!-- plus more offscreen -->
+            </div>
+        </section>
+
+        <div class="offscreen">
+            <p>half off flights from new york to miami half off flights from los angeles to honolulu half off flights from chicago to orlando half off flights from dallas to las vegas half off flights from seattle to denver half off flights from boston to chicago half off flights from phoenix to san diego half off flights from atlanta to tampa half off flights from detroit to fort lauderdale half off flights from minneapolis to phoenix half off flights from kansas city to new orleans half off flights from nashville to jacksonville half off flights from raleigh to fort myers half off flights from memphis to orlando half off flights from indianapolis to tampa half off flights from columbus to miami half off flights from milwaukee to orlando half off flights from omaha to las vegas half off flights from albuquerque to denver half off flights from tucson to los angeles half off flights from sacramento to san diego half off flights from portland to seattle half off flights from oklahoma city to dallas half off flights from louisville to orlando half off flights from birmingham to tampa half off flights from providence to orlando half off flights from hartford to fort lauderdale half off flights from buffalo to orlando half off flights from rochester to tampa half off flights from syracuse to fort myers</p>
+        </div>
+
+        <!-- Telegram CTA -->
+        <div style="text-align:center; margin:4rem 0;">
+            <a href="https://t.me/flights_bills_b4u" class="btn-telegram" target="_blank">📲 Join Flight Deal Telegram</a>
+        </div>
+
+        <!-- JSON-LD for Flight offers -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": [
+                {"@type": "Flight", "name": "LAX to HNL", "offers": {"@type": "Offer", "price": "92", "priceCurrency": "USD"}},
+                {"@type": "Flight", "name": "JFK to MIA", "offers": {"@type": "Offer", "price": "99", "priceCurrency": "USD"}},
+                {"@type": "Flight", "name": "SEA to CHI", "offers": {"@type": "Offer", "price": "109", "priceCurrency": "USD"}}
+            ]
+        }
+        </script>
+    </main>
+    <footer>…</footer>
+</body>
+</html>

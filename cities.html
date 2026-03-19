@@ -1,0 +1,14 @@
+<div class="rotating-h1"><h1>Half Off Deals in 200+ US Cities</h1></div>
+<div class="city-cloud" style="max-height:500px; overflow-y:auto;">
+    <div class="cloud" id="cityCloudFull"></div>
+</div>
+<script>
+    const fullCityList = ["New York","Los Angeles","Chicago","Houston","Phoenix","Philadelphia","San Antonio","San Diego","Dallas","Austin","Jacksonville","Fort Worth","Columbus","Charlotte","Seattle","Denver","Washington","Boston","El Paso","Detroit","Nashville","Memphis","Portland","Oklahoma City","Las Vegas","Louisville","Baltimore","Milwaukee","Albuquerque","Tucson","Fresno","Sacramento","Kansas City","Mesa","Atlanta","Omaha","Colorado Springs","Raleigh","Miami","Long Beach","Virginia Beach","Oakland","Minneapolis","Tulsa","Arlington","New Orleans","Wichita","Cleveland","Tampa","Bakersfield","Aurora","Anaheim","Santa Ana","Corpus Christi","Riverside","St. Louis","Pittsburgh","Lexington","Anchorage","Cincinnati","Saint Paul","Newark","Greensboro","Buffalo","Plano","Lincoln","Toledo","Orlando","Irvine","Durham","Chula Vista","Fort Wayne","Henderson","Chandler","St. Petersburg","Laredo","Norfolk","Jersey City","Madison","Lubbock","Scottsdale","Reno","Glendale","Gilbert","Winston‑Salem","North Las Vegas","Arlington","Boise","Fremont","Spokane","Santa Clarita","Baton Rouge","Richmond","Hialeah","San Bernardino","Tacoma","Modesto","Fontana","Moreno Valley","Huntsville","Des Moines","Rochester","Yonkers","Worcester","Salt Lake City","Amarillo","Port St. Lucie","Grand Rapids","Tallahassee","Overland Park","Knoxville","Providence","Vancouver","Chattanooga","Brownsville","Santa Rosa","Newport News","Cape Coral","Fort Lauderdale","Peoria","Lansing","Elk Grove","Springfield","Fort Collins","Eugene","Salem","Jackson","Carlsbad","Corona","Pasadena","Hayward","Torrance","Poughkeepsie","Escondido","Syracuse","Bridgeport","Surprise","Palmdale","Lancaster","Naperville","Olathe","Thornton","Savannah","Grand Prairie","Mesquite","McKinney","McAllen","Waco","Killeen","Denton","Beaumont","West Valley City","Clarksville"];
+    const cloudFull = document.getElementById('cityCloudFull');
+    fullCityList.forEach(city => {
+        const a = document.createElement('a');
+        a.href = '#';
+        a.textContent = city;
+        cloudFull.appendChild(a);
+    });
+</script>
