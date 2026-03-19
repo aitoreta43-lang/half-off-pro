@@ -1,0 +1,6 @@
+{
+  "name": "halfoff-pro",
+  "scripts": {
+    "start": "npx serve -l 8080"
+  }
+}
